@@ -7,7 +7,7 @@ def get_int(prompt):
     while True:
         try:
             return int(input(prompt))
-        except:
+        except ValueError:
             pass
 
 
