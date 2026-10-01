@@ -6,7 +6,7 @@ if len(sys.argv) < 2:
 for arg in sys.argv:
     print("Hello, my name is", arg)
 
-
+# slicing
 if len(sys.argv) < 2:
     sys.exit("Too few arguments")
 
