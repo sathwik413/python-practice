@@ -1,6 +1,6 @@
 def main():
     x = int(input("What's x? "))
-    print("x squared is", square(x))
+    print(f"{x} squared is", square(x))
 
 
 def square(n):
@@ -14,7 +14,7 @@ if __name__ == "__main__":
 # changing the * operator to + in square()
 def main():
     x = int(input("What's x? "))
-    print("x squared is", square(x))
+    print(f"{x} squared is", square(x))
 
 
 def square(n):
