@@ -1,5 +1,5 @@
 import pytest
-from hello import square
+from calculator import square
 
 
 def main():
